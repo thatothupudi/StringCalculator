@@ -1,4 +1,3 @@
-
 from string_calculator.calculator import add
 import pytest
 

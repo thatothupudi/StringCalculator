@@ -7,6 +7,7 @@ def has_negatives(string):
         if string[num] == '-' and string[num + 1].isdecimal():
             empty_string += '-' + string[num + 1] + ','
     return empty_string
+
 def add(string):
     sum = 0
     numbers = regex.findall(string) # this line is telling the program to find all the regular expressions
